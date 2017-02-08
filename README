@@ -1,0 +1,27 @@
+Welcome to the FizzBuzz MicroService.
+
+This is a play scala application.
+
+Pre-requisites:
+- Java
+- SBT (Simple Build Tool)
+- Web Browser of your choice (Chrome)
+
+How to run the application:
+- Navigate to this project
+- Run `sbt`, there will be some dependencies downloaded so have an internet connection (play and sbt dependencies)
+- The play will look like `[fizz-buzz-1] $`
+- Run `run`, this will start the play server.
+- Open Chrome, go to `localhost:9000/fizzBuzz?start=1&end=20`
+- Congratulations you are now running the server.
+- Quick note, you can change the params of the request to anything you like! eg: `localhost:9000/fizzBuzz?start=1&end=1000`
+
+How to run tests:
+- Navigate to this project
+- Run `sbt`, there will be some dependencies downloaded so have an internet connection (play and sbt dependencies)
+- The play will look like `[fizz-buzz-1] $`
+- Run `test`, this will run the applications tests.
+
+Thank you for reading, have fun with the FizzBuzz service!
+
+Version Reference: beda3eaa69428eba7bb78c0cb7ac8a3d9dc123d1

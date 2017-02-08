@@ -1,0 +1,2 @@
+#EG /fizzbuzz?start=1&end=20
+GET     /fizzbuzz   controllers.FizzBuzzController.fizzBuzz(start: Int, end: Int)
