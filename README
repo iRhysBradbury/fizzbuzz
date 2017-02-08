@@ -10,7 +10,7 @@ Pre-requisites:
 How to run the application:
 - Navigate to this project
 - Run `sbt`, there will be some dependencies downloaded so have an internet connection (play and sbt dependencies)
-- The play will look like `[fizz-buzz-1] $`
+- The play will look like `[fizz-buzz] $`
 - Run `run`, this will start the play server.
 - Open Chrome, go to `localhost:9000/fizzBuzz?start=1&end=20`
 - Congratulations you are now running the server.
@@ -19,7 +19,7 @@ How to run the application:
 How to run tests:
 - Navigate to this project
 - Run `sbt`, there will be some dependencies downloaded so have an internet connection (play and sbt dependencies)
-- The play will look like `[fizz-buzz-1] $`
+- The play will look like `[fizz-buzz] $`
 - Run `test`, this will run the applications tests.
 
 Thank you for reading, have fun with the FizzBuzz service!
