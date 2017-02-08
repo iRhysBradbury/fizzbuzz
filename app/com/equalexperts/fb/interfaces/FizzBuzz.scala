@@ -1,7 +1,7 @@
 package com.equalexperts.fb.interfaces
 
 /**
-  * This trait describes the FizzBuzz behaviour
+  * This trait describes the FizzBuzz behaviour.
   */
 trait FizzBuzz {
 
