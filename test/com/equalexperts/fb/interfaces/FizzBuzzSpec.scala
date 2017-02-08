@@ -30,5 +30,17 @@ class FizzBuzzSpec extends FlatSpec with Matchers {
     val expected = false
     val actual = 5.isMultipleOf(2)
     actual shouldBe expected
+
+
+  it should "produce `true` for 123 `contains` for 3" in {
+    val expected = true
+    val actual = 122.contains(3)
+    actual shouldBe expected
+  }
+
+  it should "produce `false` for 122 `isMultipleOf` for 3" in {
+    val expected = false
+    val actual = 122.contains(3)
+    actual shouldBe expected
   }
 }
