@@ -15,7 +15,7 @@ class FizzBuzzController @Inject()(fizzBuzzService: FizzBuzzService) extends Con
     * @return a html page which contains the fizz buzz sequence
     */
   def fizzBuzz(start: Int, end: Int): Action[AnyContent] = Action {
-      Ok(
+    Ok(
       fizzBuzzService.fizzBuzz(
         start = start,
         end = end

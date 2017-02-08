@@ -9,7 +9,7 @@ import play.api.test._
   * This test is validating the request structure to the FizzBuzz MicroService.
   */
 class FizzBuzzControllerSpec extends PlaySpec with OneAppPerTest {
-  
+
   "FizzBuzzController" should {
     "200 Ok for a valid FizzBuzz request" in {
       val expected = OK
