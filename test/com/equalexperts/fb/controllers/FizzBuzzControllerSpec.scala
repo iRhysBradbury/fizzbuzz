@@ -1,4 +1,4 @@
-package controllers
+package com.equalexperts.fb.controllers
 
 import org.scalatestplus.play._
 import play.api.test.Helpers._
@@ -26,7 +26,7 @@ class FizzBuzzControllerSpec extends PlaySpec with OneAppPerTest {
         app = app,
         req = FakeRequest(
           method = GET,
-          path = controllers.routes.FizzBuzzController.fizzBuzz(
+          path = com.equalexperts.fb.controllers.routes.FizzBuzzController.fizzBuzz(
             start = 1,
             end = 20
           ).url

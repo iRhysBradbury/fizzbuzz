@@ -1,11 +1,9 @@
-package services
-
-import javax.inject.Singleton
+package com.equalexperts.fb.interfaces
 
 /**
   * This trait describes the FizzBuzz behaviour
   */
-trait FuzzBuzz {
+trait FizzBuzz {
 
   /**
     * This implicit class `extends` Int type to allow
@@ -49,10 +47,3 @@ trait FuzzBuzz {
     }.mkString(" ")
   }
 }
-
-/**
-  * A Guice singleton which can be injected.
-  * Singleton instance of the FizzBuzz trait.
-  */
-@Singleton
-class FuzzBuzzService extends FuzzBuzz

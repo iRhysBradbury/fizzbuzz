@@ -1,10 +1,10 @@
-package services
+package com.equalexperts.fb.interfaces
 
 import org.scalatest.{FlatSpec, Matchers}
 
 class FizzBuzzSpec extends FlatSpec with Matchers {
 
-  object FizzBuzzTest extends FuzzBuzz
+  object FizzBuzzTest extends FizzBuzz
 
   it should "produce the correct fizz buzz sequence for 1 to 20" in {
     val actual = FizzBuzzTest.fizzBuzz(

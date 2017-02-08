@@ -1,11 +1,11 @@
-package controllers
+package com.equalexperts.fb.controllers
 
 import javax.inject.{Inject, Singleton}
+import com.equalexperts.fb.services.FizzBuzzService
 import play.api.mvc.{Action, AnyContent, Controller}
-import services.FuzzBuzzService
 
 @Singleton
-class FizzBuzzController @Inject()(fizzBuzzService: FuzzBuzzService) extends Controller {
+class FizzBuzzController @Inject()(fizzBuzzService: FizzBuzzService) extends Controller {
 
   /**
     * Server route for the fizz buzz sequence.
