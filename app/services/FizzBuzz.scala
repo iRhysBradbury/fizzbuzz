@@ -36,9 +36,7 @@ trait FuzzBuzz {
   def fizzBuzz(start: Int, end: Int): String = {
     {
       start.to(end).map { i =>
-        if(i.contains(3)) {
-          "lucky"
-        } else if(i.isMultipleOf(15)) {
+        if(i.isMultipleOf(15)) {
           "fizzbuzz"
         } else if(i.isMultipleOf(5)) {
           "buzz"
