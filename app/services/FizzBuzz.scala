@@ -24,17 +24,6 @@ trait FuzzBuzz {
     def isMultipleOf(m: Int): Boolean = {
       i % m == 0
     }
-
-    /**
-      * Returns `true` if the number has a `c` in it.
-      * Returns `false` if the number does not have a `c` in it.
-      *
-      * @param c the number in question
-      * @return
-      */
-    def contains(c: Int): Boolean = {
-      i.toString.contains(c.toString)
-    }
   }
 
   /**
